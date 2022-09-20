@@ -107,27 +107,27 @@ public class While {
         System.out.println("\n ----- 다중 while문 -----\n");
 
 //      다중 while문 예시
-/*       int i = 0;
+       int a = 0;
         int j = 0;
 
-        while (i < 5) {
+        while (a < 5) {
             while (j < 5) {
-                System.out.println("i: " + i + "\tj: " + j);
+                System.out.println("a: " + a + "\tj: " + j);
                 j++;
             }
-            i++;
+            a++;
             j = 0;
         }
-*/
+
 
 //        다중 while문 더 쉽게 만들기
         int i = 0;
 
         while (i < 5) {
-            int j = 0;
-            while (j < 5) {
-                System.out.println("i: " + i + "\tj: " + j);
-                j++;
+            int t = 0;
+            while (t < 5) {
+                System.out.println("a: " + i + "\tj: " + t);
+                t++;
             }
             i++;
         }
@@ -138,10 +138,10 @@ public class While {
         int i1 = 2;
 
         while (i1 < 10) {
-            int j = 1;
-            while (j < 10) {
-                System.out.println(i1 + " * " + j + " = " + (i1 * j));
-                j++;
+            int kkk = 1;
+            while (kkk < 10) {
+                System.out.println(i1 + " * " + kkk + " = " + (i1 * kkk));
+                kkk++;
             }
             i1++;
         }
@@ -150,10 +150,10 @@ public class While {
         i = 2;
         while (i < 10) {
             System.out.println("------" + i + "단 ------");
-            int j = 1;
-            while(j < 10) {
-                System.out.println(i + " * " + j + " = " + (i * j));
-                j++;
+            int k3 = 1;
+            while(k3 < 10) {
+                System.out.println(i + " * " + k3 + " = " + (i * k3));
+                k3++;
             }
             i++;
         }
